@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: rgb(50, 118, 50);
+    background-color: #5FBB68;
     /* background-image: url('/images/grocery-store.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@ body{
 .cart{
     /* background-color: rgb(96, 174, 96); */
     text-align: center;
-    color: wheat;
+    color: black;
     font-weight: 20px;
     font-size: 10px;
     height: 10vh;
