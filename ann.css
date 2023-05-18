@@ -1,0 +1,107 @@
+.sign{
+  text-align: center;
+}
+.signup{
+    font-size: 120%;
+}
+.checking{
+  text-align: center;
+}
+.thin{
+  border-radius: 21px;
+  text-align: center;
+  padding:11px 58px;
+  width: 15%;
+
+
+}
+
+.logo{
+  /* margin-left: -3%; */
+  text-align: center;
+}
+.form{
+  padding: 4px;
+
+}
+.credit{
+  border-radius: 21px;
+  text-align: center;
+  padding:11px 58px;
+  width: 15%;
+
+
+}
+.signn{
+  border-radius: 21px;
+  text-align: center;
+  padding:11px 58px;
+  width: 15%;
+  color:white ;
+  background-color: #486943;
+  text-decoration: white;
+
+}
+.logo{
+  color: #486943;
+}
+body{
+  background-color: #B2DAB8;
+  
+}
+@media(max-width:390px){
+ 
+  body{
+    margin-top: 40%;
+  }
+  .signn{
+    font-size: 12px;
+    width: 18vw;
+    height: 6vh;
+    margin-left: 2%;
+    
+    
+
+  }
+
+
+}
+
+
+
+/* .account{
+  text-align: center;
+
+}
+.sign .account input{
+  text-align: center;
+margin-top: 20x;
+}
+.log{
+  text-align: center;
+}
+.name{
+  border-radius: 40%;
+  text-align: center;
+ 
+}
+.email{
+  text-align: center;
+  border-radius: 50%;
+}
+.password{
+  text-align: center;
+}
+.signIn{
+  text-align: center;
+}
+.haveAccount{
+  text-align: center;
+}
+.logo{
+  text-align: center;
+} */
+body{
+  font-family: fantasy;
+}
+

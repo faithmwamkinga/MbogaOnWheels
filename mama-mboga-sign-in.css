@@ -1,0 +1,202 @@
+body{
+    background-color: rgb(241, 247, 242);
+    overflow-x: hidden;
+}
+
+span{
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    color: black;
+}
+h1{
+    font-size: 55px;
+    margin-left: 15%;
+    margin-top: 5%;
+    color: black;
+}
+.left{
+    margin-top: -25%;
+}
+.left img{
+    width: 55vw;
+    height: 60vh;
+    border-radius: 50px;
+    margin-top: 15%;
+    margin-left: -20%;
+}
+.logo{
+    width: 50%;
+    height: 55vh;
+    margin-left: -14%;
+    margin-top: -1%;
+}
+.brand{
+    background-color: rgb(47, 109, 47);
+    height: 15vh;
+}
+.icons{
+    width: 20%;
+    height: 10vh;
+    margin-left: 80%;
+    position: sticky;
+}
+#welcome{
+    font-size: 20px;
+    margin-left: 15%;
+    color: black;
+}
+
+.welcoming{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#account{
+    margin-top: 1%;
+    margin-left: 9%;
+    color: black;
+    font-size: 19px;
+}
+.mamamboga{
+    width: 20%;
+    height: 7vh;
+    margin-left: 7%;
+    background-color: rgb(175, 216, 93);
+    border-color:rgb(175, 216, 93) ;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.buttons{
+    margin-top: -10%;
+}
+.mteja{
+    width: 10%;
+    height: 7vh;
+    margin-left: 12%;
+    background-color: rgb(175, 216, 93);
+    border-color:rgb(175, 216, 93) ;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+@media (max-width:600px){
+    .logo{
+        width: 70%;
+    }
+    h1{
+        margin-left: -55%;
+        margin-top: 17%;
+    }
+    .icons{
+        margin-top: 7%;
+    }
+    .welcoming{
+        width: 40%;
+    }
+    .left img{
+        width: 35vw;
+        height: 25vh;
+        margin-left: -100%;
+    }
+    #welcome{
+        font-size: 11px;
+        margin-left: 9%;
+    }
+    span{
+        font-size: 18px;
+    }
+    .right{
+        width: 90vw;
+    }
+    .mamamboga{
+        width: 30%;
+        height: 7vh;
+    }
+    .mteja{
+        width: 30%;
+        height: 7vh;
+    }  
+}
+@media (max-width:450px){
+    body{
+        height: 70vh;
+    }
+    .logo{
+        width: 70%;
+        height: 20vh;
+    }
+    h1{
+        margin-left: -55%;
+        margin-top: 17%;
+    }
+    .icons{
+        margin-top: 7%;
+    }
+    .welcoming{
+        width: 40%;
+    }
+    .left img{
+        width: 30vw;
+        height: 15vh;
+        margin-left: -90%;
+        margin-top: -10%;
+    }
+    #welcome{
+        font-size: 10px;
+    }
+    span{
+        font-size: 18px;
+    }
+    .right{
+        width: 90vw;
+    }
+    .mamamboga{
+        width: 30%;
+        height: 7vh;
+    }
+    .mteja{
+        width: 30%;
+        height: 7vh;
+    }
+}
+@media (max-width:768px){
+    body{
+        height: 70vh;
+        overflow-x: hidden;
+    }
+    h1{
+        font-size: 25px;
+        margin-top: 40%;
+    }
+    .welcoming{
+        width: 40%;
+    }
+    #welcome{
+        font-size: 13px;
+        margin-top: -3%;
+    }
+    span{
+        font-size: 18px;
+    }
+    .right{
+        width: 70vw;
+    }
+    .left img{
+        width: 28vw;
+        height: 18vh;
+        margin-left: -50%;
+        margin-top: -40%;
+        /* margin-top: -10%; */
+    }
+    .password{
+        width: 40%;
+        height: 7vh;
+    }
+    .signin{
+        width: 25%;
+        height: 7vh;
+        margin-left: 42%;
+    }
+}
+

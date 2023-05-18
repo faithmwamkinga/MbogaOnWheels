@@ -1,0 +1,214 @@
+body{
+    background-color: rgb(241, 247, 242);
+    overflow-x: hidden;
+}
+
+span{
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    color: black;
+}
+h1{
+    font-size: 55px;
+    margin-left: 15%;
+    margin-top: 5%;
+    color: black;
+}
+.left{
+    margin-top: -25%;
+}
+.left img{
+    width: 55vw;
+    height: 60vh;
+    border-radius: 50px;
+    margin-top: 15%;
+    margin-left: -20%;
+}
+.logo{
+    width: 50%;
+    height: 55vh;
+    margin-left: -14%;
+    margin-top: -1%;
+    /* object-fit: cover; */
+}
+.brand{
+    background-color: rgb(47, 109, 47);
+    height: 15vh;
+}
+.icons{
+    width: 20%;
+    height: 10vh;
+    margin-left: 80%;
+    position: sticky;
+}
+#welcome{
+    font-size: 20px;
+    margin-left: 15%;
+    color: black;
+}
+
+.welcoming{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#account{
+    margin-top: 3%;
+    margin-left: 14%;
+    color: black;
+    font-size: 20px;
+}
+button{
+    width: 15%;
+    height: 7vh;
+    margin-left: 7%;
+    background-color: rgb(175, 216, 93);
+    border-color:rgb(175, 216, 93) ;
+    border-radius: 10px;
+    text-decoration-color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.buttons{
+    margin-top: -10%;
+}
+@media (max-width:992px){
+    .left img{
+        height: 35vh;
+    }
+    h1{
+        margin-right: -90%;
+        margin-top: 17%;
+        font-size: 20px;
+    }
+    #welcome{
+        font-size: 15px;
+    }
+    .welcoming{
+        margin-bottom: -2%;
+    }
+    .buttons{
+        margin-top: -7%;
+    }
+
+}
+@media (max-width:768px){
+    .left img{
+        height: 35vh;
+    }
+    h1{
+        margin-right: -90%;
+        margin-top: 17%;
+        font-size: 20px;
+    }
+    #welcome{
+        font-size: 15px;
+    }
+    .welcoming{
+        margin-bottom: -2%;
+    }
+    .buttons{
+        margin-top: -7%;
+    }
+
+}
+@media (max-width:600px){
+    .logo{
+        width: 70%;
+    }
+    #account{
+        font-size: 20px;
+    }
+    h1{
+        margin-right: -90%;
+        margin-top: 17%;
+        font-size: 20px;
+    }
+    .icons{
+        margin-top: 7%;
+    }
+    .welcoming{
+        /* width: 40%; */
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+    }
+    .left img{
+        width: 65vw;
+        height: 25vh;
+        margin-left: -10%;
+        margin-top: 30%;
+    }
+    #welcome{
+        font-size: 22px;
+        margin-left: 9%;
+    }
+    /* span{
+        font-size: 18px;
+    } */
+    .right{
+        width: 90vw;
+    }
+    .mamamboga{
+        width: 30%;
+        height: 7vh;
+    }
+    .mteja{
+        width: 30%;
+        height: 7vh;
+    }  
+    .buttons{
+        margin-top: 20%;
+    }
+}
+@media (max-width:450px){
+    body{
+        height: 70vh;
+         object-fit: cover;
+    }
+    #account{
+        font-size: 20px;
+    }
+    .logo{
+        width: 70%;
+        height: 20vh;
+    }
+    h1{
+        margin-top: 17%;
+        font-size: 40px;
+    }
+    .icons{
+        margin-top: 7%;
+    }
+    .welcoming{
+        width: 40%;
+        /* display: grid;
+        grid-template-columns: repeat(1,2fr); */
+    }
+    .left img{
+        width: 55vw;
+        height: 30vh;
+        margin-left: 0%;
+        margin-top: 20%;
+    }
+    #welcome{
+        font-size: 15px;
+        margin-left: 18%;
+    }
+    /* span{
+        font-size: 18px;
+    } */
+    .right{
+        width: 90vw;
+    }
+    .mamamboga{
+        width: 30%;
+        height: 7vh;
+    }
+    .mteja{
+        width: 30%;
+        height: 7vh;
+    } 
+    .buttons{
+        margin-left: 10%;
+    }
+}
